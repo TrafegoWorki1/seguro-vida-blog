@@ -78,7 +78,7 @@ export default function RepatriacaoHistoriaReal() {
           <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
             3. Trabalhe com especialistas
           </h3>
-          <p className="text-gray-600 dark:text-gray-300>
+          <p className="text-gray-600 dark:text-gray-300">
             Corretoras que entendem a cultura brasileira podem estruturar apólices específicas para cobrir custos de traslado.
           </p>
         </div>
