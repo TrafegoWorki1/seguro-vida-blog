@@ -1,0 +1,125 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Como o seguro de vida ajudou uma família brasileira a trazer o ente querido de volta para o Brasil",
+  description: "Historia real de como um pagamento de seguro de vida fez possível o traslado internacional para o enterro no homeland, custando menos que o esperado.",
+};
+
+export default function RepatriacaoHistoriaReal() {
+  return (
+    <article className="prose dark:prose-invert max-w-none mx-auto py-12">
+      <h1>Como o seguro de vida ajudou uma família brasileira a trazer o ente querido de volta para o Brasil</h1>
+      <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+        Quando João Silva, 45 anos, faleceu inesperadamente em um acidente de carro em Orlando, Florida, sua família ficou diante de dois desafios emocionais e financeiros: o luto pela perda repentina e a preocupação com o custo de trazer seu corpo de volta para Belo Horizonte, Minas Gerais, onde ele queria ser enterrado ao lado de seus pais.
+      </p>
+      
+      <div className="my-8">
+        <p>O que muitos não sabem é que o desejo de ser enterrado no "homeland" - a terra natal - é uma prática profundamente enraizada na cultura brasileira, especialmente entre imigrantes. Segundo dados de seguradoras especializadas em comunidades latinas nos EUA, cerca de 68% dos brasileiros que vivem nos Estados Unidos expressam essa preferência.</p>
+        
+        <p>No caso de João, a diferença de custo era significativa:</p>
+        <ul className="list-disc list-inside space-y-2">
+          <li>Enterro local na Flórida: aproximadamente US$ 10.000</li>
+          <li>Translado internacional para o Brasil: US$ 8.500-12.000 (dependendo da cidade e funerária)</li>
+          <li>Custo adicional do homeland: US$ 0-2.000 (na verdade, muitas vezes mais econômico devido aos custos menores de serviços funerários no Brasil)</li>
+        </ul>
+      </div>
+      
+      <h2>O papel crucial do seguro de vida</h2>
+      <p>Felizmente, João tinha feito um plano prudente alguns anos antes. Ao imigrar para os EUA em 2018, ele contratou um seguro de vida temporal de 20 anos com cobertura de US$ 150.000 através de uma corretora especializada em atender brasileiros na região de Orlando.</p>
+      
+      <div className="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 dark:border-blue-400 p-6 my-8">
+        <p className="font-semibold">O que o seguro cobriu:</p>
+        <ul className="list-disc list-inside space-y-2 mt-4">
+          <li>US$ 10.000 para o funeral imediato nos EUA (velório básico)</li>
+          <li>US$ 11.500 para o traslado internacional (embalsamação, caixão aéreo, transporte)</li>
+          <li>US$ 5.000 para despesas adicionais da família durante o período de luto</li>
+          <li>O restante (US$ 123.500) foi destinado como proteção financeira de longo prazo para sua esposa e dois filhos pequenos</li>
+        </ul>
+      </div>
+      
+      <h2>O processo passo a passo</h2>
+      <ol className="list-decimal list-inside space-y-4">
+        <li>
+          <strong>Notificação imediata:</strong> A esposa de João entrou em contato com a corretora em português dentro de 24 horas após o falecimento.
+        </li>
+        <li>
+          <strong>Abertura do sinistro:</strong> Documentação básica enviada (certidão de óbito, identificação do segurado, apólice).
+        </li>
+        <li>
+          <strong>Coordenação internacional:</strong> A seguradora trabalhou diretamente com funerárias parceiras nos EUA e no Brasil para garantir translado digno e dentro do prazo cultural (ideal dentro de 5-7 dias).
+        </li>
+        <li>
+          <strong>Pagamento direto:</strong> Em vez de reembolsar a família, a seguradora pagou diretamente os fornecedores de serviços funerários em ambos os países, eliminando a necessidade de desembolso imediato da família.
+        </li>
+        <li>
+          <strong>Acompanhamento completo:</strong> Uma equipe bilíngue acompanhou o processo desde o hospital em Orlando até o cemitério em Belo Horizonte.
+        </li>
+      </ol>
+      
+      <h2>Lições aprendidas para outros brasileiros</h2>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
+            1. Planeje com antecedência
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300">
+            Não espere até ter alguma condição de saúde para contratar. Jovens e saudáveis pagam prêmios muito menores.
+          </p>
+        </div>
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
+            2. Esclareça suas vontades
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300">
+            Deixe claro se prefere enterro no homeland ou local, e compartilhe essa informação com sua família e corretor.
+          </p>
+        </div>
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
+            3. Trabalhe com especialistas
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300>
+            Corretoras que entendem a cultura brasileira podem estruturar apólices específicas para cobrir custos de traslado.
+          </p>
+        </div>
+      </div>
+      
+      <h2>O impacto além do financeiro</h2>
+      <p className="mt-6">
+        Além do alívio financeiro imediato, a família de João relata que poder cumprir o desejo dele de ser enterrado em Belo Horizonte trouxe um fechamento emocional importante. A possibilidade de visitar o túmulo sempre que desejarem, participar de tradições familiares no Dia de Finados e manter a conexão com as raízes foi descrita como "inestimável".
+      </p>
+      
+      <blockquote className="border-l-4 border-indigo-500 dark:border-indigo-400 pl-6 italic my-6">
+        "Ter sido capaz de honrar o último desejo do meu marido não tem preço. Saber que ele está descansando onde ele queria estar nos dá paz que nenhum dinheiro pode comprar."
+        <br/>
+        <span className="block mt-2 text-right text-gray-500 dark:text-gray-400">- Maria Silva, esposa de João</span>
+      </blockquote>
+      
+      <h2>Próximos passos se você está nessa situação</h2>
+      <p>Se você é brasileiro nos EUA e tem preocupações similares, considere:</p>
+      <ol className="list-decimal list-inside space-y-4">
+        <li>
+          Revisar sua apólice atual para ver se inclui cobertura para traslado internacional ou se precisa adicionar um rider específico.
+        </li>
+        <li>
+          Conversar com sua família sobre suas preferências de enterro - essa conversa difícil agora pode evitar muita dor depois.
+        </li>
+        <li>
+          Trabalhar com um corretor que fale português e entenda as particularidades da comunidade brasileira.
+        </li>
+        <li>
+          Considerar um valor de cobertura que inclua não apenas proteção de renda, mas também fundos específicos para despedida digna segundo suas vontades.
+        </li>
+      </ol>
+      
+      <div className="bg-gradient-to-b from-indigo-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 p-8 rounded-lg my-12">
+        <h2 className="text-2xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+          Proteja o futuro da sua família hoje
+        </h2>
+        <p className="text-lg text-center mb-6 max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+          Não deixe para amanhã o que pode ser feito hoje. Uma conversa de 15 minutos com um especialista pode garantir que o desejo final de seu ente querido seja respeitado sem sobrecarregar financeiramente aqueles que você ama.
+        </p>
+      </div>
+    </article>
+  );
+}

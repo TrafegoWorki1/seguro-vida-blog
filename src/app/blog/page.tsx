@@ -46,12 +46,12 @@ export default function Blog() {
             <article className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
-                  Guia Completo: Term Life vs. Seguro Permanente para Brasileiros
+                  Como o seguro de vida ajudou uma família brasileira a trazer o ente querido de volta para o Brasil
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Descubra qual tipo de apólice faz mais sentido considerando suas remessas para o Brasil e planos de longo prazo.
+                  Historia real de como um pagamento de seguro de vida fez possível o traslado internacional para o enterro no homeland, custando menos que o esperado.
                 </p>
-                <Link href="/blog/guia-completo-term-vs-permanente" className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium">
+                <Link href="/blog/repatriacao-historia-real" className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium">
                   Ler artigo →
                 </Link>
               </div>
